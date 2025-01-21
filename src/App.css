@@ -1,0 +1,125 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: cursive;
+}
+
+.main-section {
+  display: flex;
+  margin-top: 20px;
+}
+
+.stage-column {
+  text-align: center;
+  width: 21%;
+  padding: 10px;
+  background-color: #e6e6e6;
+  border:2px solid black;
+
+}
+
+.order-card {
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.highlight {
+  border: 2px solid #ffcccf;
+  background-color: #e04444;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #e04444;;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #f78787;;
+  color: white;
+}
+
+.main-summary {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+}
+.formtable {
+  border: 2px solid #C4D9FF;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+td {
+  margin-left: 2px;
+  text-align: left;
+  padding: 10px;
+  font-size: 1.1pc;
+}
+.outertable {
+  text-align: center;
+  height: 50vh;
+}
+.main-screen {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.order-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.order-table th, 
+.order-table td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.order-table th {
+  background-color: #e6e6e6;
+  color: black;
+  font-weight: bold;
+}
+
+.order-table tbody tr:nth-child(even) {
+  background-color: white;
+}
+
+.order-table tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+.order-table tfoot td {
+  font-weight: bold;
+  background-color: white;
+}
+
+.order-table button {
+  padding: 5px 15px;
+  background-color: #e04444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.order-table button:hover {
+  background-color: #ff6666;
+}
