@@ -1,1 +1,1 @@
-<img src="Home_Screen">
+<img src="Home_Screen.png">
